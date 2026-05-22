@@ -1,0 +1,12 @@
+img {
+    width: 400px;
+    height: auto;
+}
+
+.card {
+    border: 3px;
+    border-style: solid;
+    border-color: red;
+    height: 50px;
+    width: 50px;
+}
