@@ -10,3 +10,7 @@ img {
     height: 50px;
     width: 50px;
 }
+
+.body {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
