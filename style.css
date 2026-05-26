@@ -55,6 +55,7 @@ a {
     padding: 10px;
     gap: 10px;
     font-size: 18px;
+    height: 400px;
 }
 
 .card-text {
