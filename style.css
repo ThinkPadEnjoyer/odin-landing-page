@@ -104,8 +104,20 @@ a {
     align-items: center;
 }
 
-.quote-source {
+.container {
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    font-size: 18px;
+    text-align: right;
+    justify-content: center;
+}
+
+.quote-source {
+    text-align: right;
+    width: 800px;
+    height: 20px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 20px;
 }
