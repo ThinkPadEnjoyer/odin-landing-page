@@ -10,6 +10,11 @@ body {
     padding: 0;
 }
 
+.header-section {
+    padding: 10px;
+    background-color: #1F2937;
+}
+
 .header {
     background-color: #1F2937;
     display: flex;
@@ -41,6 +46,11 @@ a {
     display: flex;
     background-color: #1F2937;
     color: #FAF9F8;
+    justify-content: center;
+}
+
+.sun-bird-img {
+    padding: 10px;
 }
 
 #subtext-hero {
@@ -113,11 +123,67 @@ a {
 
 .quote-source {
     text-align: right;
-    width: 800px;
+    width: 700px;
     height: 20px;
 }
 
 .quote-section {
     background-color: #E5E7EB;
     padding: 20px;
+}
+
+.action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.action {
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 900px;
+    height: 100px;
+    gap: 20px;
+}
+
+.time-text {
+    font-weight: 600;
+    font-size: 18px;
+    flex: 2;
+    margin-bottom: 0;
+}
+
+.encouraging-text {
+    margin-top: 0;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.action-button {
+    height: 35px;
+    width: 90px;
+    background-color: #3882F6;
+    border: 2px solid white;
+    color: white;
+}
+
+.footer {
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 4px;
+    color: white;
 }
