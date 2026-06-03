@@ -23,6 +23,13 @@ body {
     color: #FAF9F8;
     margin: 0;
     padding: 2px 10px 10px 10px;
+    width: 800px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 ul {
@@ -47,6 +54,13 @@ a {
     background-color: #1F2937;
     color: #FAF9F8;
     justify-content: center;
+    width: 800px;
+}
+
+.header-two-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .sun-bird-img {
@@ -55,6 +69,12 @@ a {
 
 #subtext-hero {
     color: lightgrey;
+}
+
+.card-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .all-cards-text {
@@ -66,6 +86,7 @@ a {
     gap: 10px;
     font-size: 18px;
     height: 400px;
+    width: 800px;
 }
 
 .card-text-ind {
@@ -73,8 +94,8 @@ a {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     text-align: center;
 }
 
@@ -85,6 +106,7 @@ a {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    margin: 20px;
 }
 
 .card {
@@ -92,8 +114,13 @@ a {
     border-style: solid;
     border-color: #3882F6;
     border-radius: 8px;
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
+    flex: 2;
+}
+
+.card-text {
+    font-size: 18px
 }
 
 .quote {
