@@ -71,32 +71,56 @@ a {
     color: lightgrey;
 }
 
-.card-text-container {
+.card-section-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.all-cards-text {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0;
-    padding: 10px;
-    gap: 10px;
-    font-size: 18px;
-    height: 400px;
+.card-section {
+    height: 300px;
     width: 800px;
-}
-
-.card-text-ind {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    box-sizing: border-box;
+}
+
+.card-boxes {
+    display: flex;
+    height: 200px;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+.card {
+    border: 3px solid #3882F6;
     height: 200px;
     width: 200px;
+    border-radius: 10px;
+}
+
+.card-text {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.ind-card-text {
+    color: #1F2937;
+    height: 75px;
+    width: 200px;
     text-align: center;
+    font-size: 18px;
+
 }
 
 .info-title {
@@ -107,20 +131,6 @@ a {
     color: #1F2937;
     font-weight: 900;
     margin: 20px;
-}
-
-.card {
-    border: 3px;
-    border-style: solid;
-    border-color: #3882F6;
-    border-radius: 8px;
-    height: 100px;
-    width: 100px;
-    flex: 2;
-}
-
-.card-text {
-    font-size: 18px
 }
 
 .quote {
