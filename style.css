@@ -71,6 +71,16 @@ a {
     color: lightgrey;
 }
 
+.header-button {
+    background-color: #3882F6;
+    color: #FAF9F8;
+    border: none;
+    height: 35px;
+    width: 110px;
+    border-radius: 8px;
+    font-weight: 900;
+}
+
 .card-section-container {
     display: flex;
     justify-content: center;
@@ -209,7 +219,7 @@ a {
 
 .action-button {
     height: 35px;
-    width: 90px;
+    width: 110px;
     background-color: #3882F6;
     border: 2px solid white;
     color: white;
